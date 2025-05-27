@@ -1,4 +1,3 @@
-import './App.css'
 import SkillsSection from './components/skillsSection';
 import ProjectSection from './components/projectsSection';
 import HeroSection from './components/heroSection';

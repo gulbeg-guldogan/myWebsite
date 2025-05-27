@@ -1,26 +1,25 @@
 const data = {
-    en: {
+   en: {
         heroSection: {
-            greeting: "Hi!",
-            title: "I'm Gulbeg. I'm full-stack developer.",
-            description: "If you have any dreams just tell me and watch me on it.",
-            profileImage: "../assets/HeroPic.jpeg",
+            name: "YILDIRIM GULBEG GULDOGAN",
+            lang1: "TÜRKÇE",
+            lang2: "'YE GEÇ",
+            darkTheme: "DARK MODE",
+            lightTheme: "LIGHT MODE",
+            profileImage: "/assets/HeroPic.jpeg",
+            title: "I am a frontend developer...",
+            description: "I work on frontend, UI, and UX topics. I also have knowledge about backend development.",
             socials: [
-                {
-                    logo: "HireMe.png",
-                    alt_text: "Hire me",
-                    link: "gulbeg.guldogan@gmail.com",
-                },
-                {
-                    logo: "link.png",
-                    alt_text: "Linkedin",
-                    link: "https://www.linkedin.com/in/y%C4%B1ld%C4%B1r%C4%B1m-g%C3%BClbeg-g%C3%BCldo%C4%9Fan-73b18518b/",
-                },
-                {
-                    logo: "Github.png",
-                    alt_text: "Github",
-                    link: "https://github.com/gulbeg-guldogan",
-                }
+            {
+                logo: "fa-brands fa-github",
+                link: "https://github.com/gulbeg-guldogan",
+                alt_text: "Github"
+            },
+            {
+                logo: "fa-brands fa-linkedin-in",
+                link: "https://www.linkedin.com/in/y%C4%B1ld%C4%B1r%C4%B1m-g%C3%BClbeg-g%C3%BCldo%C4%9Fan-73b18518b/",
+                alt_text: "Linkedin"
+            }
             ]
         },
 
@@ -65,6 +64,7 @@ const data = {
             school: "Kırıkkale University, Industrial Engineering",
             position: "Preferred Position",
             roleInfo: "Full-Stack",
+            aboutPhoto: "/assets/HeroPic.jpeg",
             aboutTitle: "About Me",
             aboutText: "Hi, I'm Gulbeg. I'm a web developer passionate about software development. I work on frontend, UI, and UX topics. I also have knowledge about backend development.",
         },
@@ -118,26 +118,25 @@ const data = {
 
     tr: {
         heroSection: {
-            greeting: "Merhaba!",
-            title: "Ben Gulbeg. Full-Stack geliştiriciyim.",
-            description: "Eğer bir hayaliniz varsa bana söyleyin ve beni izleyin.",
-            profileImage: "../assets/HeroPic.jpeg",
+            name: "YILDIRIM GÜLBEG GÜLDOĞAN",
+            lang1: "SET TO",
+            lang2: " ENGLISH",
+            darkTheme: "KOYU TEMA",
+            lightTheme: "AÇIK TEMA",
+            profileImage: "/assets/HeroPic.jpeg",
+            title: "Ben bir frontend geliştiricisiyim...",
+            description: "Frontend, UI ve UX konularında çalışıyorum. Ayrıca backend ile ilgili de bilgi sahibiyim.",
             socials: [
-                {
-                    logo: "HireMe.png",
-                    alt_text: "İşe Al",
-                    link: "gulbeg.guldogan@gmail.com",
-                },
-                {
-                    logo: "link.png",
-                    alt_text: "Linkedin",
-                    link: "https://www.linkedin.com/in/y%C4%B1ld%C4%B1r%C4%B1m-g%C3%BClbeg-g%C3%BCldo%C4%9Fan-73b18518b/",
-                },
-                {
-                    logo: "Github.png",
-                    alt_text: "Github",
-                    link: "https://github.com/gulbeg-guldogan",
-                }
+            {
+                logo: "fa-brands fa-github",
+                link: "https://github.com/gulbeg-guldogan",
+                alt_text: "Github"
+            },
+            {
+                logo: "fa-brands fa-linkedin-in",
+                link: "https://www.linkedin.com/in/y%C4%B1ld%C4%B1r%C4%B1m-g%C3%BClbeg-g%C3%BCldo%C4%9Fan-73b18518b/",
+                alt_text: "Linkedin"
+            }
             ]
         },
 
@@ -182,6 +181,7 @@ const data = {
             school: "Kırıkkale University, Industrial Engineering",
             position: "Tercih Edilen Rol",
             roleInfo: "Full-Stack",
+            aboutPhoto: "/assets/HeroPic.jpeg",
             aboutTitle: "Hakkımda",
             aboutText: "Merhaba, ben Gulbeg. Yazılım geliştirme konusunda tutkulu bir web geliştiricisiyim. Frontend, UI ve UX konularında çalışıyorum. Ayrıca backend geliştirme konusunda da bilgi sahibiyim.",
         },
