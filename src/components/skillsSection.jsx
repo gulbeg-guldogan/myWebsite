@@ -14,7 +14,7 @@ export default function SkillsSection() {
 
           <div >
             {data.skills.map((skills) => (
-              <div >
+              <div>
                 <img
                   src={skills.icon}
                   alt={skills.name}

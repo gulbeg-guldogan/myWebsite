@@ -6,6 +6,7 @@ import ProfilSection from './components/profilSection';
 import FooterSection from './components/footerSection';
 import data from './store/data'
 import { LanguageProvider } from './hooks/useLanguageContext';
+import { ThemeProvider } from './hooks/useThemeContext';
 
 function App() {
   const lang = "en"; // ya da "tr"
@@ -13,14 +14,15 @@ function App() {
 
   return (
     <>
-    <LanguageProvider>
-       <HeroSection />
-        <SkillsSection />
-        <ProfilSection />
-        <ProjectSection />
-        <FooterSection />
-    </LanguageProvider>
-       
+      <ThemeProvider>
+        <LanguageProvider>
+          <HeroSection />
+          <SkillsSection />
+          <ProfilSection />
+          <ProjectSection />
+          <FooterSection />
+        </LanguageProvider>
+      </ThemeProvider>
     </>
   )
 }
