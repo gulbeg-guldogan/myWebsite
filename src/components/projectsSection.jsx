@@ -30,7 +30,7 @@ export default function ProjectSection() {
 
               <div className="project-links">
                 <a
-                  href={projects.linkWebsite}
+                  href={projects.linkWebSite}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="project-link"

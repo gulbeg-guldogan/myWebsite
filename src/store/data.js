@@ -82,7 +82,7 @@ const data = {
                         "React",
                     ],
                     image: "assets/pizza.png",
-                    linkWebSite: "",
+                    linkWebSite: "https://teknojikyemekler-git-main-gulbeg-guldogans-projects.vercel.app/",
                     linkGithub: "https://github.com/gulbeg-guldogan/React-Pizza-Page",
                 }
             ],
@@ -199,7 +199,7 @@ const data = {
                         "React",
                     ],
                     image: "assets/pizza.png",
-                    linkWebSite: "",
+                    linkWebSite: "https://teknojikyemekler-git-main-gulbeg-guldogans-projects.vercel.app/",
                     linkGithub: "https://github.com/gulbeg-guldogan/React-Pizza-Page",
                 }
             ],
