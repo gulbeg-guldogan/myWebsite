@@ -16,11 +16,11 @@ const HeroSection = () => {
 
 
     return (
-       <section className={`section-container ${theme}`}>
+      <section className={`section-container ${theme}`}>
 
         <div className="name-container">
           <p className="name">{data.name}</p>
-          </div>
+        </div>
         <div className="switNameBut">
 
         <div className="main-content">
@@ -73,13 +73,13 @@ const HeroSection = () => {
                   {theme === 'dark' ? `${data.lightTheme}` : `${data.darkTheme}`}
                 </p>
               </div>
-            </div>
+          </div>
 
           <img className="profile-image" src={data.profileImage} alt="profilepic" />
         </div>
-      </div>
+        </div>
         
-    </section>
+      </section>
     );
 };
 
