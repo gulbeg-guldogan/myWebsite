@@ -17,10 +17,13 @@ export const LanguageProvider = ({ children }) => {
     postData();
   }, [lang]);
 
+
+  // Diller arası geçiş bu fonksiyon ile yapılır.
   const toggleLang = () => {
     setLang((prev) => (prev === 'tr' ? 'en' : 'tr'));
   };
 
+// Axios ile dil değişiminde sahte API veri gider ve langData olarak saklanır. 
   const postData = () => {
     axios.post('https://reqres.in/api/workintech', data[lang], {
       headers: {
@@ -43,4 +46,5 @@ export const LanguageProvider = ({ children }) => {
   );
 };
 
+// Veri paylaşımı için languageContext ile paylaşılır. 
 export const useLanguage = () => useContext(LanguageContext);

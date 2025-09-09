@@ -84,7 +84,32 @@ const data = {
                     image: "assets/pizza.png",
                     linkWebSite: "https://teknojikyemekler-git-main-gulbeg-guldogans-projects.vercel.app/",
                     linkGithub: "https://github.com/gulbeg-guldogan/React-Pizza-Page",
+                },
+                {
+                    name: "Library Project",
+                    description: "This project is a library management system developed in accordance with object-oriented programming (OOP) principles. Basic components such as books, members, staff, and borrowing have been modeled using classes; OOP concepts such as encapsulation, inheritance, and polymorphism have been effectively utilized. The project aims to introduce a structured approach to software design and to produce object-oriented solutions to real-world problems.",
+                    usedTech: [
+                        "Java",
+                    ],
+                    image: "assets/libraryPic.jpg",
+                    linkWebSite: "https://github.com/gulbeg-guldogan/Java-s15-Challenge/tree/master",
+                    linkGithub: "https://github.com/gulbeg-guldogan/Java-s15-Challenge/tree/master",
+                },
+                {
+                    name: "Tmitter Clone",
+                    description: "This project is a Twitter clone application developed using the Spring Boot framework. It includes basic social media functions such as user registration/login, tweet sharing, a follow system, and likes. The project adopts a RESTful API architecture, and thanks to its layered structure, code readability and sustainability are prioritized. This work aims to strengthen both my backend development skills and my mastery of modern web application architectures.",
+                    usedTech: [
+                        "Java",
+                        "PostgreSQL",
+                        "SpringBoot",
+                        "Postman",
+                        "Docker",
+                    ],
+                    image: "assets/twitter.png",
+                    linkWebSite: "https://github.com/gulbeg-guldogan/Tmitter",
+                    linkGithub: "https://github.com/gulbeg-guldogan/Tmitter",
                 }
+
             ],
             viewSite: "View Site",
             github: "Github",
@@ -201,6 +226,30 @@ const data = {
                     image: "assets/pizza.png",
                     linkWebSite: "https://teknojikyemekler-git-main-gulbeg-guldogans-projects.vercel.app/",
                     linkGithub: "https://github.com/gulbeg-guldogan/React-Pizza-Page",
+                },
+                {
+                    name: "Kütüphane  Projesi",
+                    description: "Bu proje, nesne yönelimli programlama (OOP) prensiplerine uygun olarak geliştirilmiş bir kütüphane yönetim sistemidir. Kitap, üye, personel ve ödünç alma gibi temel bileşenler sınıflar aracılığıyla modellenmiş; encapsulation, inheritance ve polymorphism gibi OOP kavramları etkin şekilde kullanılmıştır. Proje, yazılım tasarımına yapısal bir yaklaşım kazandırmayı ve gerçek dünya problemlerine nesne yönelimli çözümler üretmeyi amaçlamaktadır.",
+                    usedTech: [
+                        "Java",
+                    ],
+                    image: "assets/libraryPic.jpg",
+                    linkWebSite: "https://github.com/gulbeg-guldogan/Java-s15-Challenge/tree/master",
+                    linkGithub: "https://github.com/gulbeg-guldogan/Java-s15-Challenge/tree/master",
+                },
+                {
+                    name: "Tmitter Klon",
+                    description: "Bu proje, Spring Boot framework’ü kullanılarak geliştirilmiş bir Twitter clone uygulamasıdır. Kullanıcı kayıt/giriş işlemleri, tweet paylaşımı, takip sistemi ve beğeni gibi temel sosyal medya işlevlerini içermektedir. Projede RESTful API mimarisi benimsenmiş ve katmanlı yapı sayesinde kod okunabilirliği ile sürdürülebilirlik ön planda tutulmuştur. Bu çalışma, hem backend geliştirme becerilerimi hem de modern web uygulama mimarilerine olan hakimiyetimi pekiştirmeyi amaçlamaktadır.",
+                    usedTech: [
+                        "Java",
+                        "PostgreSQL",
+                        "SpringBoot",
+                        "Postman",
+                        "Docker",
+                    ],
+                    image: "assets/twitter.png",
+                    linkWebSite: "https://github.com/gulbeg-guldogan/Tmitter",
+                    linkGithub: "https://github.com/gulbeg-guldogan/Tmitter",
                 }
             ],
             viewSite: "View Site",

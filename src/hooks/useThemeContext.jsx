@@ -15,6 +15,7 @@ export const ThemeProvider = ({ children }) => {
     localStorage.setItem('app-theme', theme);
   }, [theme]);
 
+  // Tema değişimi bu fonksiyon ile oluyor.
   const toggleTheme = () => {
     setTheme((prev) => (prev === 'light' ? 'dark' : 'light'));
     console.log('Theme Değişti');
